@@ -11,8 +11,8 @@ module.exports = {
         projectId: process.env.GATSBY_kontentProjectId,
         authorizationKey: process.env.GATSBY_kontentPreviewApiKey,
         usePreviewUrl: process.env.GATSBY_kontentIsPreviewMode === 'true',
-        languageCodenames: [`pl-PL`],
         includeTypes: true,
+        languageCodenames: [`default`],
       }
     }
   ],
